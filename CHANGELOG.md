@@ -1,3 +1,8 @@
+## 1.4.1
+
+* [**CHORE**] Upgrade dependencies
+  - Fix an issue where an error occurs when parsing the location JSON in release mode [#22](https://github.com/Dev-hwang/flutter_location/issues/22)
+
 ## 1.4.0
 
 * [**CHORE**] Upgrade dependencies

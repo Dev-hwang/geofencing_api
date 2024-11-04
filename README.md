@@ -28,7 +28,7 @@ To use this plugin, add `geofencing_api` as a [dependency in your pubspec.yaml f
 
 ```yaml
 dependencies:
-  geofencing_api: ^1.4.0
+  geofencing_api: ^1.4.1
 ```
 
 After adding the plugin to your flutter project, we need to declare the platform-specific permissions to use for this plugin to work properly.
