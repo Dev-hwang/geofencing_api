@@ -1,3 +1,7 @@
+## 1.4.1+1
+
+* [**DOCS**] Fix incorrect API usage in the `README`
+
 ## 1.4.1
 
 * [**CHORE**] Upgrade dependencies
