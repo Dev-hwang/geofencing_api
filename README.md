@@ -241,10 +241,10 @@ void resumeGeofencing() {
 
 ```dart
 void stopGeofencing() async {
-  Geofencing.instance.addGeofenceStatusChangedListener(_onGeofenceStatusChanged);
-  Geofencing.instance.addGeofenceErrorCallbackListener(_onGeofenceError);
-  Geofencing.instance.addLocationChangedListener(LocationChanged);
-  Geofencing.instance.addLocationServicesStatusChangedListener(LocationServicesStatusChanged);
+  Geofencing.instance.removeGeofenceStatusChangedListener(_onGeofenceStatusChanged);
+  Geofencing.instance.removeGeofenceErrorCallbackListener(_onGeofenceError);
+  Geofencing.instance.removeLocationChangedListener(LocationChanged);
+  Geofencing.instance.removeLocationServicesStatusChangedListener(LocationServicesStatusChanged);
   
   await Geofencing.instance.stop(keepsRegions: true);
 }
