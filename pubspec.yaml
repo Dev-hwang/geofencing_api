@@ -1,6 +1,6 @@
 name: geofencing_api
 description: "This plugin is used to implement circular and polygon geofencing service."
-version: 1.4.1+1
+version: 1.4.2
 homepage: https://github.com/Dev-hwang/geofencing_api
 
 environment:

@@ -1,3 +1,7 @@
+## 1.4.2
+
+* [**FIX**] Fix an issue related to `requestLocationPermission` on iOS [#23](https://github.com/Dev-hwang/flutter_location/issues/23)
+
 ## 1.4.1+1
 
 * [**DOCS**] Fix incorrect API usage in the `README`
