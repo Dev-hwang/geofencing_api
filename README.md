@@ -15,20 +15,13 @@ This plugin is used to implement circular and polygon geofencing service.
 * Can listen to location changes in real-time.
 * Can request or check location permission.
 
-## Support version
-
-- Flutter: `3.10.0+`
-- Dart: `3.0.0+`
-- Android: `5.0+ (minSdkVersion: 21)`
-- iOS: `12.0+`
-
 ## Getting started
 
 To use this plugin, add `geofencing_api` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/). For example:
 
 ```yaml
 dependencies:
-  geofencing_api: ^1.4.2
+  geofencing_api: ^2.0.0
 ```
 
 After adding the plugin to your flutter project, we need to declare the platform-specific permissions to use for this plugin to work properly.
