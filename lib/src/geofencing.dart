@@ -212,9 +212,13 @@ class Geofencing {
       interval: _options.interval,
     ).handleError(_onError).listen(_onLocation);
 
-    _locationServicesStatusSubscription =
-        FlLocation.getLocationServicesStatusStream()
-            .listen(_onLocationServicesStatus);
+    try {
+      _locationServicesStatusSubscription =
+          FlLocation.getLocationServicesStatusStream()
+              .listen(_onLocationServicesStatus);
+    } catch (_) {
+      // web: not supported
+    }
   }
 
   Future<void> _unsubscribeStreams() async {
