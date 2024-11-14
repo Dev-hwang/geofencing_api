@@ -134,8 +134,8 @@ class _DemoPageState extends State<DemoPage> {
 
     // Android: You must request location permission one more time to access background location.
     // iOS 12-: You can request always permission through the above request.
-    // iOS 13+: You can only request whileInUse permission. When the app enters the background,
-    // a prompt will appear asking for always permission.
+    // iOS 13+: You can only request whileInUse permission through the above request.
+    // When the app enters the background, a prompt will appear asking for always permission.
     if (Platform.isAndroid &&
         background &&
         permission == LocationPermission.whileInUse) {
